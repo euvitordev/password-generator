@@ -1,0 +1,14 @@
+#generate {
+  background: var(--background-button);
+  border: 0;
+
+  width: 100%;
+
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: var(--text-button);
+}
+
+#generate:hover {
+  background: var(--background-button-hover);
+}

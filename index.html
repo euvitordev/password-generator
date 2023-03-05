@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Gerador de senhas</h1>
+        <div class="slider-main">
+          <input
+            type="range"
+            value="8"
+            min="1"
+            max="25"
+            class="slider"
+            oninput="this.nextElementSibling.value = this.value"
+            id="slider"
+            name=""
+            id=""
+          />
+          <output>8</output>
+        </div>
+        <button id="generate" class="action-btn">Gerar senha</button>
+        <label for=""
+          >Incluir caracteres especiais
+          <input type="checkbox" checked="checked" name="" id="checkbox" />
+          <span class="ckeckmark"></span>
+        </label>
+
+        <div class="output">
+          <h5 id="pwd_text">
+            <span>Clique em gerar senha</span>
+          </h5>
+          <button id="clipboard" class="clipboard"></button>
+        </div>
+        <span id="copy_text"></span>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+@import url(../components/standard.css);
+@import url(../components/container.css);
+@import url(../components/themes.css);
+@import url(../components/buttons.css);
+@import url(../components/texts.css);
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+}
+
+main {
+  width: auto;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
